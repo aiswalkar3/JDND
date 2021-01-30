@@ -4,3 +4,6 @@ log/*
 starter_code/.idea/*
 starter_code/auth-course.iml
 ../logs/*
+./idea/modules.xml
+log/application.log
+starter_code/.idea/compiler.xml
