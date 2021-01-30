@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="38899974-7bd9-4001-81a6-ff7af2e07675" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/JDND.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/P04-eCommerce Application/.idea/P04-eCommerce Application.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/P04-eCommerce Application/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/P04-eCommerce Application/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/P04-eCommerce Application/starter_code/src/main/java/com/example/demo/security/JWTAuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/P04-eCommerce Application/starter_code/src/main/java/com/example/demo/security/JWTAuthenticationVerficationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/P04-eCommerce Application/starter_code/src/main/java/com/example/demo/security/SecurityConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/P04-eCommerce Application/starter_code/src/main/java/com/example/demo/security/UserDetailsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/P04-eCommerce Application/starter_code/src/main/java/com/example/demo/security/WebSecurityConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/P04-eCommerce Application/starter_code/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/projects/P04-eCommerce Application/starter_code/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/P04-eCommerce Application/starter_code/src/main/java/com/example/demo/SareetaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/projects/P04-eCommerce Application/starter_code/src/main/java/com/example/demo/SareetaApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/P04-eCommerce Application/starter_code/src/main/java/com/example/demo/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/projects/P04-eCommerce Application/starter_code/src/main/java/com/example/demo/controllers/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/P04-eCommerce Application/starter_code/src/main/java/com/example/demo/model/persistence/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/projects/P04-eCommerce Application/starter_code/src/main/java/com/example/demo/model/persistence/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/P04-eCommerce Application/starter_code/src/main/java/com/example/demo/model/requests/CreateUserRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/projects/P04-eCommerce Application/starter_code/src/main/java/com/example/demo/model/requests/CreateUserRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/P04-eCommerce Application/starter_code/src/test/java/com/example/demo/SareetaApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/projects/P04-eCommerce Application/starter_code/src/test/java/com/example/demo/SareetaApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1mJlnFFmQgdGWmaPCq4MJue0NVZ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/projects/P04-eCommerce Application" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="38899974-7bd9-4001-81a6-ff7af2e07675" name="Default Changelist" comment="" />
+      <created>1609219739854</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1609219739854</updated>
+    </task>
+    <servers />
+  </component>
+</project>

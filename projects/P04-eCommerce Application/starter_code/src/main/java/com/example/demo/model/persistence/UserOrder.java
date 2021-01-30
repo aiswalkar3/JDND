@@ -21,7 +21,6 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 @Entity
 @Table(name = "user_order")
 public class UserOrder {
-
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@JsonProperty
@@ -75,11 +74,18 @@ public class UserOrder {
 	}
 
 	public static UserOrder createFromCart(Cart cart) {
-		UserOrder order = new UserOrder();
-		order.setItems(cart.getItems().stream().collect(Collectors.toList()));
-		order.setTotal(cart.getTotal());
-		order.setUser(cart.getUser());
-		return order;
+		try {
+			UserOrder order = new UserOrder();
+			order.setItems(cart.getItems().stream().collect(Collectors.toList()));
+			order.setTotal(cart.getTotal());
+			order.setUser(cart.getUser());
+			return order;
+		}
+		catch (Exception e) {
+			System.out.println("Exception occurred while creating order from cart.");
+			e.printStackTrace();
+			return null;
+		}
 	}
 	
 }
