@@ -1,6 +1,7 @@
 package com.example.demo;
 
 import com.splunk.*;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
@@ -22,15 +23,27 @@ public class SareetaApplication {
 		return new BCryptPasswordEncoder();
 	}
 
+	@Value("${splunk.username}")
+	private String username;
+
+	@Value("${splunk.password}")
+	private String password;
+
+	@Value("${splunk.host}")
+	private String host;
+
+	@Value("${splunk.port}")
+	private Integer port;
+
 	@Bean
 	public Service splunkService()
 	{
 		HttpService.setSslSecurityProtocol(SSLSecurityProtocol.TLSv1_2);
 		ServiceArgs loginArgs = new ServiceArgs();
-		loginArgs.setUsername("aiswalkar3");
-		loginArgs.setPassword("Admin@123");
-		loginArgs.setHost("localhost");
-		loginArgs.setPort(8089);
+		loginArgs.setUsername(username);
+		loginArgs.setPassword(password);
+		loginArgs.setHost(host);
+		loginArgs.setPort(port);
 
 		Service service = Service.connect(loginArgs);
 
