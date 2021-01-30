@@ -1,0 +1,32 @@
+"2021-01-24 21:12:58 - Starting SareetaApplication on DESKTOP-QBCIC90 with PID 17180 (started by aiswa in D:\EECS Internship\SpringBoot Projects\JDND\projects\P04-eCommerce Application)
+""2021-01-24 21:12:58 - No active profile set, falling back to default profiles: default
+""2021-01-24 21:12:59 - Bootstrapping Spring Data repositories in DEFAULT mode.
+""2021-01-24 21:12:59 - Finished Spring Data repository scanning in 68ms. Found 4 repository interfaces.
+""2021-01-24 21:13:00 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$90039060] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2021-01-24 21:13:00 - Tomcat initialized with port(s): 8080 (http)
+""2021-01-24 21:13:00 - Starting service [Tomcat]
+""2021-01-24 21:13:00 - Starting Servlet engine: [Apache Tomcat/9.0.19]
+""2021-01-24 21:13:00 - Initializing Spring embedded WebApplicationContext
+""2021-01-24 21:13:00 - Root WebApplicationContext: initialization completed in 2172 ms
+""2021-01-24 21:13:01 - HikariPool-1 - Starting...
+""2021-01-24 21:13:01 - HikariPool-1 - Start completed.
+""2021-01-24 21:13:01 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+""2021-01-24 21:13:01 - HHH000412: Hibernate Core {5.3.10.Final}
+""2021-01-24 21:13:01 - HHH000206: hibernate.properties not found
+""2021-01-24 21:13:01 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+""2021-01-24 21:13:02 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2021-01-24 21:13:02 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2021-01-24 21:13:04 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2021-01-24 21:13:04 - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1e592ef2, org.springframework.security.web.context.SecurityContextPersistenceFilter@6f4f2cc0, org.springframework.security.web.header.HeaderWriterFilter@438c0aaf, org.springframework.web.filter.CorsFilter@96dfcbb, org.springframework.security.web.authentication.logout.LogoutFilter@7455204c, com.example.demo.security.JWTAuthenticationFilter@34ede267, com.example.demo.security.JWTAuthenticationVerficationFilter@6bf77ee, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2431050d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@35744f8, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@51c6e775, org.springframework.security.web.session.SessionManagementFilter@37b80ec7, org.springframework.security.web.access.ExceptionTranslationFilter@4dffa400, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@19677add]
+""2021-01-24 21:13:04 - Initializing ExecutorService 'applicationTaskExecutor'
+""2021-01-24 21:13:04 - Tomcat started on port(s): 8080 (http) with context path ''
+""2021-01-24 21:13:04 - Started SareetaApplication in 6.5 seconds (JVM running for 6.901)
+""2021-01-24 21:13:04 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2021-01-24 21:13:04 - Initializing Servlet 'dispatcherServlet'
+""2021-01-24 21:13:04 - Completed initialization in 12 ms
+""2021-01-24 21:13:05 - Creating user with username:Abhishek
+""2021-01-24 21:13:05 - User name set with Abhishek.
+""2021-01-24 21:13:05 - User with user name Abhishek created successfully.
+"

@@ -1,0 +1,26 @@
+"2021-01-24 21:23:43 - Starting SareetaApplication on DESKTOP-QBCIC90 with PID 25752 (started by aiswa in D:\EECS Internship\SpringBoot Projects\JDND\projects\P04-eCommerce Application)
+""2021-01-24 21:23:43 - No active profile set, falling back to default profiles: default
+""2021-01-24 21:23:44 - Bootstrapping Spring Data repositories in DEFAULT mode.
+""2021-01-24 21:23:44 - Finished Spring Data repository scanning in 106ms. Found 4 repository interfaces.
+""2021-01-24 21:23:45 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$73f8c82d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2021-01-24 21:23:45 - Tomcat initialized with port(s): 8080 (http)
+""2021-01-24 21:23:45 - Starting service [Tomcat]
+""2021-01-24 21:23:45 - Starting Servlet engine: [Apache Tomcat/9.0.19]
+""2021-01-24 21:23:45 - Initializing Spring embedded WebApplicationContext
+""2021-01-24 21:23:45 - Root WebApplicationContext: initialization completed in 2189 ms
+""2021-01-24 21:23:46 - HikariPool-1 - Starting...
+""2021-01-24 21:23:46 - HikariPool-1 - Start completed.
+""2021-01-24 21:23:46 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+""2021-01-24 21:23:46 - HHH000412: Hibernate Core {5.3.10.Final}
+""2021-01-24 21:23:46 - HHH000206: hibernate.properties not found
+""2021-01-24 21:23:46 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+""2021-01-24 21:23:47 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2021-01-24 21:23:47 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2021-01-24 21:23:48 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2021-01-24 21:23:48 - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5740ad76, org.springframework.security.web.context.SecurityContextPersistenceFilter@1eddca25, org.springframework.security.web.header.HeaderWriterFilter@169d4aba, org.springframework.web.filter.CorsFilter@40a84ea8, org.springframework.security.web.authentication.logout.LogoutFilter@602aeb87, com.example.demo.security.JWTAuthenticationFilter@79c849c7, com.example.demo.security.JWTAuthenticationVerficationFilter@35840ecc, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@581e8969, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@796642ae, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@67fd2e17, org.springframework.security.web.session.SessionManagementFilter@6ba226cd, org.springframework.security.web.access.ExceptionTranslationFilter@1ab21633, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@250e8712]
+""2021-01-24 21:23:48 - Initializing ExecutorService 'applicationTaskExecutor'
+""2021-01-24 21:23:49 - Tomcat started on port(s): 8080 (http) with context path ''
+""2021-01-24 21:23:49 - Started SareetaApplication in 5.912 seconds (JVM running for 6.333)
+"
