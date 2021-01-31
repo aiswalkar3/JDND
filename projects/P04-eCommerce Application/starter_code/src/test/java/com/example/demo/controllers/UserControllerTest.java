@@ -5,6 +5,8 @@ import com.example.demo.model.persistence.User;
 import com.example.demo.model.persistence.repositories.CartRepository;
 import com.example.demo.model.persistence.repositories.UserRepository;
 import com.example.demo.model.requests.CreateUserRequest;
+import com.splunk.Args;
+import com.splunk.Receiver;
 import org.json.JSONException;
 import org.junit.Before;
 import org.junit.Test;
@@ -23,6 +25,8 @@ public class UserControllerTest {
     private UserRepository userRepo = mock(UserRepository.class);
     private CartRepository cartRepo = mock(CartRepository.class);
     private BCryptPasswordEncoder encoder = mock(BCryptPasswordEncoder.class);
+    private Receiver receiver = mock(Receiver.class);
+    private Args args = mock(Args.class);
 
     @Before
     public void setup()
@@ -31,6 +35,8 @@ public class UserControllerTest {
         TestUtils.injectObjects(userController, "userRepository", userRepo);
         TestUtils.injectObjects(userController, "cartRepository", cartRepo);
         TestUtils.injectObjects(userController, "bCryptPasswordEncoder", encoder);
+        TestUtils.injectObjects(userController, "receiver", receiver);
+        TestUtils.injectObjects(userController, "args", args);
     }
 
     /*

@@ -11,6 +11,8 @@ import com.example.demo.model.persistence.repositories.OrderRepository;
 import com.example.demo.model.persistence.repositories.UserRepository;
 import com.example.demo.model.requests.CreateUserRequest;
 import com.example.demo.model.requests.ModifyCartRequest;
+import com.splunk.Args;
+import com.splunk.Receiver;
 import org.json.JSONException;
 import org.junit.Before;
 import org.junit.Test;
@@ -37,6 +39,8 @@ public class OrderControllerTest {
     private CartRepository cartRepo = mock(CartRepository.class);
     private ItemRepository itemRepo = mock(ItemRepository.class);
     private BCryptPasswordEncoder encoder = mock(BCryptPasswordEncoder.class);
+    private Receiver receiver = mock(Receiver.class);
+    private Args args = mock(Args.class);
 
     @Before
     public void setup()
@@ -45,15 +49,21 @@ public class OrderControllerTest {
         TestUtils.injectObjects(userController, "userRepository", userRepo);
         TestUtils.injectObjects(userController, "cartRepository", cartRepo);
         TestUtils.injectObjects(userController, "bCryptPasswordEncoder", encoder);
+        TestUtils.injectObjects(userController, "receiver", receiver);
+        TestUtils.injectObjects(userController, "args", args);
 
         cartController = new CartController();
         TestUtils.injectObjects(cartController, "userRepository", userRepo);
         TestUtils.injectObjects(cartController, "cartRepository", cartRepo);
         TestUtils.injectObjects(cartController, "itemRepository", itemRepo);
+        TestUtils.injectObjects(cartController, "receiver", receiver);
+        TestUtils.injectObjects(cartController, "args", args);
 
         orderController = new OrderController();
         TestUtils.injectObjects(orderController, "userRepository", userRepo);
         TestUtils.injectObjects(orderController, "orderRepository", orderRepo);
+        TestUtils.injectObjects(orderController, "receiver", receiver);
+        TestUtils.injectObjects(orderController, "args", args);
     }
 
     @Test

@@ -149,6 +149,7 @@ public class UserController {
 			Cart cart = new Cart();
 			cartRepository.save(cart);
 			user.setCart(cart);
+			cart.setUser(user);
 
 			log.debug("User name password with length:{}.", createUserRequest.getPassword().length());
 

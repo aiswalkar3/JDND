@@ -4,6 +4,8 @@ import com.example.demo.TestUtils;
 import com.example.demo.model.persistence.Item;
 import com.example.demo.model.persistence.repositories.ItemRepository;
 import com.example.demo.model.persistence.repositories.UserRepository;
+import com.splunk.Args;
+import com.splunk.Receiver;
 import org.junit.Before;
 import org.junit.Test;
 import org.springframework.http.ResponseEntity;
@@ -20,13 +22,17 @@ import static org.mockito.Mockito.when;
 
 public class ItemControllerTest {
     private ItemController itemController;
-    private ItemRepository itemRepo = mock(ItemRepository.class);;
+    private ItemRepository itemRepo = mock(ItemRepository.class);
+    private Receiver receiver = mock(Receiver.class);
+    private Args args = mock(Args.class);
 
     @Before
     public void setup()
     {
         itemController = new ItemController();
         TestUtils.injectObjects(itemController,"itemRepository", itemRepo);
+        TestUtils.injectObjects(itemController,"receiver", receiver);
+        TestUtils.injectObjects(itemController,"args", args);
     }
 
     @Test
