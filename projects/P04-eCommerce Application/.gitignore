@@ -1,6 +1,7 @@
 ../../.idea/
 ./idea/
-log
+log/**
 starter_code/.idea/
 starter_code/auth-course.iml
 ../logs/
+../../JDND
