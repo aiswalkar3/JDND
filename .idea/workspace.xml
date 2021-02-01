@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38899974-7bd9-4001-81a6-ff7af2e07675" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/P04-eCommerce Application/Screenshots/Gitignore configuration.docx" beforeDir="false" afterPath="$PROJECT_DIR$/projects/P04-eCommerce Application/Screenshots/Gitignore configuration.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/P04-eCommerce Application/Screenshots/Splunk Integration Alerts and Dashboards.docx" beforeDir="false" afterPath="$PROJECT_DIR$/projects/P04-eCommerce Application/Screenshots/Splunk Integration Alerts and Dashboards.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/P04-eCommerce Application/Screenshots/~$lunk Integration Alerts and Dashboards.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/P04-eCommerce Application/Screenshots/~WRL0105.tmp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/projects/P04-eCommerce Application/log/application.log" beforeDir="false" afterPath="$PROJECT_DIR$/projects/P04-eCommerce Application/log/application.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/P04-eCommerce Application/starter_code/src/main/java/com/example/demo/security/JWTAuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/projects/P04-eCommerce Application/starter_code/src/main/java/com/example/demo/security/JWTAuthenticationFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/P04-eCommerce Application/starter_code/src/main/java/com/example/demo/security/UserDetailsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/projects/P04-eCommerce Application/starter_code/src/main/java/com/example/demo/security/UserDetailsServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/P04-eCommerce Application/starter_code/src/main/java/com/example/demo/security/WebSecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/projects/P04-eCommerce Application/starter_code/src/main/java/com/example/demo/security/WebSecurityConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/P04-eCommerce Application/starter_code/target/classes/com/example/demo/security/JWTAuthenticationFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/projects/P04-eCommerce Application/starter_code/target/classes/com/example/demo/security/JWTAuthenticationFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/P04-eCommerce Application/starter_code/target/classes/com/example/demo/security/UserDetailsServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/projects/P04-eCommerce Application/starter_code/target/classes/com/example/demo/security/UserDetailsServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/P04-eCommerce Application/starter_code/target/classes/com/example/demo/security/WebSecurityConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/projects/P04-eCommerce Application/starter_code/target/classes/com/example/demo/security/WebSecurityConfiguration.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

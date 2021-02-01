@@ -1,197 +1,191 @@
-2021-01-29 00:30:48.055  INFO 4932 --- [main] com.example.demo.SareetaApplication      : Starting SareetaApplication on DESKTOP-QBCIC90 with PID 4932 (started by aiswa in D:\EECS Internship\SpringBoot Projects\JDND\projects\P04-eCommerce Application)
-2021-01-29 00:30:48.066  INFO 4932 --- [main] com.example.demo.SareetaApplication      : No active profile set, falling back to default profiles: default
-2021-01-29 00:30:48.864  INFO 4932 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2021-01-29 00:30:48.977  INFO 4932 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 98ms. Found 4 repository interfaces.
-2021-01-29 00:30:49.734  INFO 4932 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$15c1e635] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2021-01-29 00:30:50.441  INFO 4932 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2021-01-29 00:30:50.485  INFO 4932 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2021-01-29 00:30:50.485  INFO 4932 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
-2021-01-29 00:30:50.737  INFO 4932 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2021-01-29 00:30:50.737  INFO 4932 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2600 ms
-2021-01-29 00:30:51.006  INFO 4932 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2021-01-29 00:30:51.197  INFO 4932 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2021-01-29 00:30:51.316  INFO 4932 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+2021-02-01 01:16:08.871  INFO 48820 --- [main] com.example.demo.SareetaApplication      : Starting SareetaApplication on DESKTOP-QBCIC90 with PID 48820 (started by aiswa in D:\EECS Internship\SpringBoot Projects\JDND\projects\P04-eCommerce Application)
+2021-02-01 01:16:08.918  INFO 48820 --- [main] com.example.demo.SareetaApplication      : No active profile set, falling back to default profiles: default
+2021-02-01 01:16:09.751  INFO 48820 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-02-01 01:16:09.833  INFO 48820 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 71ms. Found 4 repository interfaces.
+2021-02-01 01:16:10.369  INFO 48820 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6dde568e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-01 01:16:10.790  INFO 48820 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-02-01 01:16:10.823  INFO 48820 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-02-01 01:16:10.823  INFO 48820 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2021-02-01 01:16:10.993  INFO 48820 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-02-01 01:16:10.993  INFO 48820 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2015 ms
+2021-02-01 01:16:11.207  INFO 48820 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-02-01 01:16:11.435  INFO 48820 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-02-01 01:16:11.516  INFO 48820 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
 	name: default
 	...]
-2021-01-29 00:30:51.432  INFO 4932 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
-2021-01-29 00:30:51.435  INFO 4932 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
-2021-01-29 00:30:51.663  INFO 4932 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
-2021-01-29 00:30:52.189  INFO 4932 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
-2021-01-29 00:30:53.150  INFO 4932 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2021-01-29 00:30:55.407  WARN 4932 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2021-01-29 00:30:55.522  INFO 4932 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3aa63b53, org.springframework.security.web.context.SecurityContextPersistenceFilter@141234df, org.springframework.security.web.header.HeaderWriterFilter@58d79479, org.springframework.web.filter.CorsFilter@39a9becc, org.springframework.security.web.authentication.logout.LogoutFilter@69c0bae6, com.example.demo.security.JWTAuthenticationFilter@177302d6, com.example.demo.security.JWTAuthenticationVerficationFilter@2af3b054, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@57617a75, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@669daa93, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@21046afa, org.springframework.security.web.session.SessionManagementFilter@495f7ca4, org.springframework.security.web.access.ExceptionTranslationFilter@aaa7000, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@19c24321]
-2021-01-29 00:30:55.674  INFO 4932 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2021-01-29 00:30:55.903  INFO 4932 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2021-01-29 00:30:55.906  INFO 4932 --- [main] com.example.demo.SareetaApplication      : Started SareetaApplication in 8.354 seconds (JVM running for 8.795)
-2021-01-29 00:31:02.482  INFO 4932 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-01-29 00:31:02.482  INFO 4932 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2021-01-29 00:31:02.494  INFO 4932 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 12 ms
-2021-01-29 00:31:02.627  INFO 4932 --- [http-nio-8080-exec-2] c.e.demo.controllers.UserController      : Creating user with username:Aloi
-2021-01-29 00:31:02.658  INFO 4932 --- [http-nio-8080-exec-2] c.e.demo.controllers.UserController      : User name set with Aloi.
-2021-01-29 00:31:02.799  INFO 4932 --- [http-nio-8080-exec-2] c.e.demo.controllers.UserController      : User with user name Aloi created successfully.
-2021-01-29 00:31:09.522  INFO 4932 --- [http-nio-8080-exec-3] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
-2021-01-29 00:31:22.751  INFO 4932 --- [http-nio-8080-exec-4] c.e.demo.controllers.CartController      : Adding item:1, quantity:3 to user:Aloi cart.
-2021-01-29 00:31:22.784  INFO 4932 --- [http-nio-8080-exec-4] com.example.demo.model.persistence.Cart  : Adding item:Round Widget to cart for user:Aloi.
-2021-01-29 00:31:22.790  INFO 4932 --- [http-nio-8080-exec-4] com.example.demo.model.persistence.Cart  : After adding item:Round Widget to cart for user:Aloi, the total price is:2.99.
-2021-01-29 00:31:22.790  INFO 4932 --- [http-nio-8080-exec-4] com.example.demo.model.persistence.Cart  : Adding item:Round Widget to cart for user:Aloi.
-2021-01-29 00:31:22.790  INFO 4932 --- [http-nio-8080-exec-4] com.example.demo.model.persistence.Cart  : After adding item:Round Widget to cart for user:Aloi, the total price is:5.98.
-2021-01-29 00:31:22.790  INFO 4932 --- [http-nio-8080-exec-4] com.example.demo.model.persistence.Cart  : Adding item:Round Widget to cart for user:Aloi.
-2021-01-29 00:31:22.790  INFO 4932 --- [http-nio-8080-exec-4] com.example.demo.model.persistence.Cart  : After adding item:Round Widget to cart for user:Aloi, the total price is:8.97.
-2021-01-29 00:31:22.807  INFO 4932 --- [http-nio-8080-exec-4] c.e.demo.controllers.CartController      : item with name:Round Widget, quantity:3 was added to the user:Aloi cart.
-2021-01-29 00:31:32.386  INFO 4932 --- [http-nio-8080-exec-5] c.e.demo.controllers.OrderController     : User with username:Aloi submitted the order.
-2021-01-29 00:31:32.416  INFO 4932 --- [http-nio-8080-exec-5] c.e.demo.controllers.OrderController     : Order:1 of the user:Aloi successfully submitted.
-2021-01-29 00:31:50.926  INFO 4932 --- [http-nio-8080-exec-6] c.e.demo.controllers.UserController      : Creating user with username:Abhishek
-2021-01-29 00:31:50.943  INFO 4932 --- [http-nio-8080-exec-6] c.e.demo.controllers.UserController      : User name set with Abhishek.
-2021-01-29 00:31:51.025  INFO 4932 --- [http-nio-8080-exec-6] c.e.demo.controllers.UserController      : User with user name Abhishek created successfully.
-2021-01-29 00:32:14.295  INFO 4932 --- [http-nio-8080-exec-8] c.e.demo.controllers.CartController      : Adding item:1, quantity:3 to user:Aloi cart.
-2021-01-29 00:32:14.319  INFO 4932 --- [http-nio-8080-exec-8] com.example.demo.model.persistence.Cart  : Adding item:Round Widget to cart for user:Aloi.
-2021-01-29 00:32:14.320  INFO 4932 --- [http-nio-8080-exec-8] com.example.demo.model.persistence.Cart  : After adding item:Round Widget to cart for user:Aloi, the total price is:11.96.
-2021-01-29 00:32:14.320  INFO 4932 --- [http-nio-8080-exec-8] com.example.demo.model.persistence.Cart  : Adding item:Round Widget to cart for user:Aloi.
-2021-01-29 00:32:14.320  INFO 4932 --- [http-nio-8080-exec-8] com.example.demo.model.persistence.Cart  : After adding item:Round Widget to cart for user:Aloi, the total price is:14.95.
-2021-01-29 00:32:14.320  INFO 4932 --- [http-nio-8080-exec-8] com.example.demo.model.persistence.Cart  : Adding item:Round Widget to cart for user:Aloi.
-2021-01-29 00:32:14.320  INFO 4932 --- [http-nio-8080-exec-8] com.example.demo.model.persistence.Cart  : After adding item:Round Widget to cart for user:Aloi, the total price is:17.94.
-2021-01-29 00:32:14.323  INFO 4932 --- [http-nio-8080-exec-8] c.e.demo.controllers.CartController      : item with name:Round Widget, quantity:3 was added to the user:Aloi cart.
-2021-01-29 00:32:21.212  INFO 4932 --- [http-nio-8080-exec-9] c.e.demo.controllers.OrderController     : User with username:Aloi submitted the order.
-2021-01-29 00:32:21.243  INFO 4932 --- [http-nio-8080-exec-9] c.e.demo.controllers.OrderController     : Order:2 of the user:Aloi successfully submitted.
-2021-01-29 06:03:21.332  WARN 4932 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h27s766ms735µs100ns).
-2021-01-29 14:00:19.630  WARN 4932 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7h57m5s475ms502µs200ns).
-2021-01-29 14:13:23.995  INFO 39572 --- [main] com.example.demo.SareetaApplication      : Starting SareetaApplication on DESKTOP-QBCIC90 with PID 39572 (started by aiswa in D:\EECS Internship\SpringBoot Projects\JDND\projects\P04-eCommerce Application)
-2021-01-29 14:13:23.999  INFO 39572 --- [main] com.example.demo.SareetaApplication      : No active profile set, falling back to default profiles: default
-2021-01-29 14:13:24.916  INFO 39572 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2021-01-29 14:13:25.015  INFO 39572 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 86ms. Found 4 repository interfaces.
-2021-01-29 14:13:25.580  INFO 39572 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3a0c586f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2021-01-29 14:13:26.022  INFO 39572 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2021-01-29 14:13:26.056  INFO 39572 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2021-01-29 14:13:26.057  INFO 39572 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
-2021-01-29 14:13:26.223  INFO 39572 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2021-01-29 14:13:26.223  INFO 39572 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2133 ms
-2021-01-29 14:13:26.445  INFO 39572 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2021-01-29 14:13:26.670  INFO 39572 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2021-01-29 14:13:26.762  INFO 39572 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+2021-02-01 01:16:11.619  INFO 48820 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2021-02-01 01:16:11.622  INFO 48820 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2021-02-01 01:16:11.827  INFO 48820 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-02-01 01:16:12.359  INFO 48820 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-02-01 01:16:13.143  INFO 48820 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-01 01:16:14.781  WARN 48820 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-01 01:16:14.861  INFO 48820 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@42012093, org.springframework.security.web.context.SecurityContextPersistenceFilter@50e0b472, org.springframework.security.web.header.HeaderWriterFilter@478fe415, org.springframework.web.filter.CorsFilter@3c538e62, org.springframework.security.web.authentication.logout.LogoutFilter@744db9fb, com.example.demo.security.JWTAuthenticationFilter@ca0a21f, com.example.demo.security.JWTAuthenticationVerficationFilter@768d27e8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6054ac20, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4b360a82, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3dc39412, org.springframework.security.web.session.SessionManagementFilter@31028e45, org.springframework.security.web.access.ExceptionTranslationFilter@54ef9698, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7615666e]
+2021-02-01 01:16:14.996  INFO 48820 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-01 01:16:15.236  INFO 48820 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-01 01:16:15.240  INFO 48820 --- [main] com.example.demo.SareetaApplication      : Started SareetaApplication in 6.852 seconds (JVM running for 7.346)
+2021-02-01 01:34:55.033  INFO 44400 --- [main] com.example.demo.SareetaApplication      : Starting SareetaApplication on DESKTOP-QBCIC90 with PID 44400 (started by aiswa in D:\EECS Internship\SpringBoot Projects\JDND\projects\P04-eCommerce Application)
+2021-02-01 01:34:55.044  INFO 44400 --- [main] com.example.demo.SareetaApplication      : No active profile set, falling back to default profiles: default
+2021-02-01 01:34:55.835  INFO 44400 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-02-01 01:34:55.941  INFO 44400 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 86ms. Found 4 repository interfaces.
+2021-02-01 01:34:56.571  INFO 44400 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4c40cfb0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-01 01:34:56.996  INFO 44400 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-02-01 01:34:57.027  INFO 44400 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-02-01 01:34:57.028  INFO 44400 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2021-02-01 01:34:57.213  INFO 44400 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-02-01 01:34:57.213  INFO 44400 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2092 ms
+2021-02-01 01:34:57.475  INFO 44400 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-02-01 01:34:57.716  INFO 44400 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-02-01 01:34:57.800  INFO 44400 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
 	name: default
 	...]
-2021-01-29 14:13:26.886  INFO 39572 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
-2021-01-29 14:13:26.889  INFO 39572 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
-2021-01-29 14:13:27.128  INFO 39572 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
-2021-01-29 14:13:27.668  INFO 39572 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
-2021-01-29 14:13:28.557  INFO 39572 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2021-01-29 14:13:30.021  WARN 39572 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2021-01-29 14:13:30.104  INFO 39572 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6d035815, org.springframework.security.web.context.SecurityContextPersistenceFilter@55315a00, org.springframework.security.web.header.HeaderWriterFilter@3794b7b1, org.springframework.web.filter.CorsFilter@6fd2acf5, org.springframework.security.web.authentication.logout.LogoutFilter@2c2edbe7, com.example.demo.security.JWTAuthenticationFilter@45a9cf78, com.example.demo.security.JWTAuthenticationVerficationFilter@368ff8be, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@73a1a1b4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@58c36104, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@41bbdd8a, org.springframework.security.web.session.SessionManagementFilter@1be427b4, org.springframework.security.web.access.ExceptionTranslationFilter@65698020, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@244268a8]
-2021-01-29 14:13:30.231  INFO 39572 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2021-01-29 14:13:30.440  INFO 39572 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2021-01-29 14:13:30.442  INFO 39572 --- [main] com.example.demo.SareetaApplication      : Started SareetaApplication in 6.924 seconds (JVM running for 7.369)
-2021-01-29 14:13:40.124  INFO 39572 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-01-29 14:13:40.124  INFO 39572 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2021-01-29 14:13:40.135  INFO 39572 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
-2021-01-29 14:13:40.240  INFO 39572 --- [http-nio-8080-exec-1] c.e.demo.controllers.UserController      : Creating user with username:Abhishek
-2021-01-29 14:13:40.270  INFO 39572 --- [http-nio-8080-exec-1] c.e.demo.controllers.UserController      : User name set with Abhishek.
-2021-01-29 14:13:40.444  INFO 39572 --- [http-nio-8080-exec-1] c.e.demo.controllers.UserController      : User with user name Abhishek created successfully.
-2021-01-29 14:13:47.764  INFO 39572 --- [http-nio-8080-exec-3] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
-2021-01-29 14:14:12.475  INFO 39572 --- [http-nio-8080-exec-4] c.e.demo.controllers.CartController      : Adding item:1, quantity:3 to user:Abhishek cart.
-2021-01-29 14:14:12.510  INFO 39572 --- [http-nio-8080-exec-4] com.example.demo.model.persistence.Cart  : Adding item:Round Widget to cart for user:Abhishek.
-2021-01-29 14:14:12.515  INFO 39572 --- [http-nio-8080-exec-4] com.example.demo.model.persistence.Cart  : After adding item:Round Widget to cart for user:Abhishek, the total price is:2.99.
-2021-01-29 14:14:12.515  INFO 39572 --- [http-nio-8080-exec-4] com.example.demo.model.persistence.Cart  : Adding item:Round Widget to cart for user:Abhishek.
-2021-01-29 14:14:12.516  INFO 39572 --- [http-nio-8080-exec-4] com.example.demo.model.persistence.Cart  : After adding item:Round Widget to cart for user:Abhishek, the total price is:5.98.
-2021-01-29 14:14:12.516  INFO 39572 --- [http-nio-8080-exec-4] com.example.demo.model.persistence.Cart  : Adding item:Round Widget to cart for user:Abhishek.
-2021-01-29 14:14:12.516  INFO 39572 --- [http-nio-8080-exec-4] com.example.demo.model.persistence.Cart  : After adding item:Round Widget to cart for user:Abhishek, the total price is:8.97.
-2021-01-29 14:14:12.532  INFO 39572 --- [http-nio-8080-exec-4] c.e.demo.controllers.CartController      : item with name:Round Widget, quantity:3 was added to the user:Abhishek cart.
-2021-01-29 14:14:36.496  INFO 39572 --- [http-nio-8080-exec-5] c.e.demo.controllers.OrderController     : User with username:Abhishek submitted the order.
-2021-01-29 14:14:36.522  INFO 39572 --- [http-nio-8080-exec-5] c.e.demo.controllers.OrderController     : Order:1 of the user:Abhishek successfully submitted.
-2021-01-29 14:15:21.346  INFO 39572 --- [http-nio-8080-exec-6] c.e.demo.controllers.UserController      : Creating user with username:Aloi
-2021-01-29 14:15:21.365  INFO 39572 --- [http-nio-8080-exec-6] c.e.demo.controllers.UserController      : User name set with Aloi.
-2021-01-29 14:15:21.441  INFO 39572 --- [http-nio-8080-exec-6] c.e.demo.controllers.UserController      : User with user name Aloi created successfully.
-2021-01-29 14:15:34.272  INFO 39572 --- [http-nio-8080-exec-7] c.e.demo.controllers.CartController      : Adding item:2, quantity:5 to user:Aloi cart.
-2021-01-29 14:15:34.294  INFO 39572 --- [http-nio-8080-exec-7] com.example.demo.model.persistence.Cart  : Adding item:Square Widget to cart for user:Aloi.
-2021-01-29 14:15:34.295  INFO 39572 --- [http-nio-8080-exec-7] com.example.demo.model.persistence.Cart  : After adding item:Square Widget to cart for user:Aloi, the total price is:1.99.
-2021-01-29 14:15:34.295  INFO 39572 --- [http-nio-8080-exec-7] com.example.demo.model.persistence.Cart  : Adding item:Square Widget to cart for user:Aloi.
-2021-01-29 14:15:34.295  INFO 39572 --- [http-nio-8080-exec-7] com.example.demo.model.persistence.Cart  : After adding item:Square Widget to cart for user:Aloi, the total price is:3.98.
-2021-01-29 14:15:34.295  INFO 39572 --- [http-nio-8080-exec-7] com.example.demo.model.persistence.Cart  : Adding item:Square Widget to cart for user:Aloi.
-2021-01-29 14:15:34.295  INFO 39572 --- [http-nio-8080-exec-7] com.example.demo.model.persistence.Cart  : After adding item:Square Widget to cart for user:Aloi, the total price is:5.97.
-2021-01-29 14:15:34.295  INFO 39572 --- [http-nio-8080-exec-7] com.example.demo.model.persistence.Cart  : Adding item:Square Widget to cart for user:Aloi.
-2021-01-29 14:15:34.295  INFO 39572 --- [http-nio-8080-exec-7] com.example.demo.model.persistence.Cart  : After adding item:Square Widget to cart for user:Aloi, the total price is:7.96.
-2021-01-29 14:15:34.295  INFO 39572 --- [http-nio-8080-exec-7] com.example.demo.model.persistence.Cart  : Adding item:Square Widget to cart for user:Aloi.
-2021-01-29 14:15:34.295  INFO 39572 --- [http-nio-8080-exec-7] com.example.demo.model.persistence.Cart  : After adding item:Square Widget to cart for user:Aloi, the total price is:9.95.
-2021-01-29 14:15:34.300  INFO 39572 --- [http-nio-8080-exec-7] c.e.demo.controllers.CartController      : item with name:Square Widget, quantity:5 was added to the user:Aloi cart.
-2021-01-29 14:15:47.332  INFO 39572 --- [http-nio-8080-exec-8] c.e.demo.controllers.OrderController     : User with username:Aloi submitted the order.
-2021-01-29 14:15:47.358  INFO 39572 --- [http-nio-8080-exec-8] c.e.demo.controllers.OrderController     : Order:2 of the user:Aloi successfully submitted.
-2021-01-29 14:35:07.135  INFO 33732 --- [main] com.example.demo.SareetaApplication      : Starting SareetaApplication on DESKTOP-QBCIC90 with PID 33732 (started by aiswa in D:\EECS Internship\SpringBoot Projects\JDND\projects\P04-eCommerce Application)
-2021-01-29 14:35:07.139  INFO 33732 --- [main] com.example.demo.SareetaApplication      : No active profile set, falling back to default profiles: default
-2021-01-29 14:35:07.847  INFO 33732 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2021-01-29 14:35:07.921  INFO 33732 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 65ms. Found 4 repository interfaces.
-2021-01-29 14:35:08.526  INFO 33732 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3a0c586f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2021-01-29 14:35:08.913  INFO 33732 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2021-01-29 14:35:08.945  INFO 33732 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2021-01-29 14:35:08.946  INFO 33732 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
-2021-01-29 14:35:09.100  INFO 33732 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2021-01-29 14:35:09.101  INFO 33732 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1887 ms
-2021-01-29 14:35:09.305  INFO 33732 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2021-01-29 14:35:09.495  INFO 33732 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2021-01-29 14:35:09.577  INFO 33732 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+2021-02-01 01:34:57.898  INFO 44400 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2021-02-01 01:34:57.900  INFO 44400 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2021-02-01 01:34:58.126  INFO 44400 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-02-01 01:34:58.510  INFO 44400 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-02-01 01:34:59.294  INFO 44400 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-01 01:35:00.909  WARN 44400 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-01 01:35:00.988  INFO 44400 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@19c24321, org.springframework.security.web.context.SecurityContextPersistenceFilter@57ab4b33, org.springframework.security.web.header.HeaderWriterFilter@2ae88712, org.springframework.web.filter.CorsFilter@ba27ce6, org.springframework.security.web.authentication.logout.LogoutFilter@129aaac1, com.example.demo.security.JWTAuthenticationFilter@97cb8dc, com.example.demo.security.JWTAuthenticationVerficationFilter@261b6c8c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@46d51d5e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@700202fa, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2dcbf825, org.springframework.security.web.session.SessionManagementFilter@da11873, org.springframework.security.web.access.ExceptionTranslationFilter@36857d32, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@25b8f9d2]
+2021-02-01 01:35:01.123  INFO 44400 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-01 01:35:01.357  INFO 44400 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-01 01:35:01.361  INFO 44400 --- [main] com.example.demo.SareetaApplication      : Started SareetaApplication in 6.802 seconds (JVM running for 7.226)
+2021-02-01 01:36:13.169  INFO 49012 --- [main] com.example.demo.SareetaApplication      : Starting SareetaApplication on DESKTOP-QBCIC90 with PID 49012 (started by aiswa in D:\EECS Internship\SpringBoot Projects\JDND\projects\P04-eCommerce Application)
+2021-02-01 01:36:13.173  INFO 49012 --- [main] com.example.demo.SareetaApplication      : No active profile set, falling back to default profiles: default
+2021-02-01 01:36:13.896  INFO 49012 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-02-01 01:36:13.965  INFO 49012 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 57ms. Found 4 repository interfaces.
+2021-02-01 01:36:14.521  INFO 49012 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5160f9da] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-01 01:36:14.901  INFO 49012 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-02-01 01:36:14.929  INFO 49012 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-02-01 01:36:14.929  INFO 49012 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2021-02-01 01:36:15.087  INFO 49012 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-02-01 01:36:15.087  INFO 49012 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1849 ms
+2021-02-01 01:36:15.314  INFO 49012 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-02-01 01:36:15.505  INFO 49012 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-02-01 01:36:15.591  INFO 49012 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
 	name: default
 	...]
-2021-01-29 14:35:09.655  INFO 33732 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
-2021-01-29 14:35:09.657  INFO 33732 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
-2021-01-29 14:35:09.847  INFO 33732 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
-2021-01-29 14:35:10.215  INFO 33732 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
-2021-01-29 14:35:10.993  INFO 33732 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2021-01-29 14:35:12.383  WARN 33732 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2021-01-29 14:35:12.464  INFO 33732 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6fd2acf5, org.springframework.security.web.context.SecurityContextPersistenceFilter@4942e6af, org.springframework.security.web.header.HeaderWriterFilter@3225d950, org.springframework.web.filter.CorsFilter@45a9cf78, org.springframework.security.web.authentication.logout.LogoutFilter@7f53a31f, com.example.demo.security.JWTAuthenticationFilter@368ff8be, com.example.demo.security.JWTAuthenticationVerficationFilter@41bbdd8a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@669daa93, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1fc8047f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3bf4644c, org.springframework.security.web.session.SessionManagementFilter@470a446f, org.springframework.security.web.access.ExceptionTranslationFilter@57617a75, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@563ab6d5]
-2021-01-29 14:35:12.593  INFO 33732 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2021-01-29 14:35:12.812  INFO 33732 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2021-01-29 14:35:12.815  INFO 33732 --- [main] com.example.demo.SareetaApplication      : Started SareetaApplication in 6.16 seconds (JVM running for 6.532)
-2021-01-29 14:35:24.260  INFO 33732 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-01-29 14:35:24.260  INFO 33732 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2021-01-29 14:35:24.269  INFO 33732 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
-2021-01-29 14:35:24.374  INFO 33732 --- [http-nio-8080-exec-2] c.e.demo.controllers.UserController      : Creating user with username:Aloi
-2021-01-29 14:35:24.402  INFO 33732 --- [http-nio-8080-exec-2] c.e.demo.controllers.UserController      : User name set with Aloi.
-2021-01-29 14:35:24.559  INFO 33732 --- [http-nio-8080-exec-2] c.e.demo.controllers.UserController      : User with user name Aloi created successfully.
-2021-01-29 14:35:36.529  INFO 33732 --- [http-nio-8080-exec-3] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
-2021-01-29 14:35:50.830  INFO 33732 --- [http-nio-8080-exec-4] c.e.demo.controllers.CartController      : Adding item:2, quantity:5 to user:Aloi cart.
-2021-01-29 14:35:50.877  INFO 33732 --- [http-nio-8080-exec-4] com.example.demo.model.persistence.Cart  : Adding item:Square Widget to cart for user:Aloi.
-2021-01-29 14:35:50.885  INFO 33732 --- [http-nio-8080-exec-4] com.example.demo.model.persistence.Cart  : After adding item:Square Widget to cart for user:Aloi, the total price is:1.99.
-2021-01-29 14:35:50.886  INFO 33732 --- [http-nio-8080-exec-4] com.example.demo.model.persistence.Cart  : Adding item:Square Widget to cart for user:Aloi.
-2021-01-29 14:35:50.886  INFO 33732 --- [http-nio-8080-exec-4] com.example.demo.model.persistence.Cart  : After adding item:Square Widget to cart for user:Aloi, the total price is:3.98.
-2021-01-29 14:35:50.886  INFO 33732 --- [http-nio-8080-exec-4] com.example.demo.model.persistence.Cart  : Adding item:Square Widget to cart for user:Aloi.
-2021-01-29 14:35:50.886  INFO 33732 --- [http-nio-8080-exec-4] com.example.demo.model.persistence.Cart  : After adding item:Square Widget to cart for user:Aloi, the total price is:5.97.
-2021-01-29 14:35:50.886  INFO 33732 --- [http-nio-8080-exec-4] com.example.demo.model.persistence.Cart  : Adding item:Square Widget to cart for user:Aloi.
-2021-01-29 14:35:50.886  INFO 33732 --- [http-nio-8080-exec-4] com.example.demo.model.persistence.Cart  : After adding item:Square Widget to cart for user:Aloi, the total price is:7.96.
-2021-01-29 14:35:50.886  INFO 33732 --- [http-nio-8080-exec-4] com.example.demo.model.persistence.Cart  : Adding item:Square Widget to cart for user:Aloi.
-2021-01-29 14:35:50.886  INFO 33732 --- [http-nio-8080-exec-4] com.example.demo.model.persistence.Cart  : After adding item:Square Widget to cart for user:Aloi, the total price is:9.95.
-2021-01-29 14:35:50.907  INFO 33732 --- [http-nio-8080-exec-4] c.e.demo.controllers.CartController      : item with name:Square Widget, quantity:5 was added to the user:Aloi cart.
-2021-01-29 14:36:02.955  INFO 33732 --- [http-nio-8080-exec-5] c.e.demo.controllers.OrderController     : User with username:Aloi submitted the order.
-2021-01-29 14:36:02.982  INFO 33732 --- [http-nio-8080-exec-5] c.e.demo.controllers.OrderController     : Order:1 of the user:Aloi successfully submitted.
-2021-01-29 14:36:23.869  INFO 33732 --- [http-nio-8080-exec-6] c.e.demo.controllers.UserController      : Creating user with username:Abhishek
-2021-01-29 14:36:23.884  INFO 33732 --- [http-nio-8080-exec-6] c.e.demo.controllers.UserController      : User name set with Abhishek.
-2021-01-29 14:36:23.971  INFO 33732 --- [http-nio-8080-exec-6] c.e.demo.controllers.UserController      : User with user name Abhishek created successfully.
-2021-01-29 14:36:54.540  INFO 33732 --- [http-nio-8080-exec-8] c.e.demo.controllers.CartController      : Adding item:2, quantity:5 to user:Abhishek cart.
-2021-01-29 14:36:54.564  INFO 33732 --- [http-nio-8080-exec-8] com.example.demo.model.persistence.Cart  : Adding item:Square Widget to cart for user:Abhishek.
-2021-01-29 14:36:54.565  INFO 33732 --- [http-nio-8080-exec-8] com.example.demo.model.persistence.Cart  : After adding item:Square Widget to cart for user:Abhishek, the total price is:1.99.
-2021-01-29 14:36:54.565  INFO 33732 --- [http-nio-8080-exec-8] com.example.demo.model.persistence.Cart  : Adding item:Square Widget to cart for user:Abhishek.
-2021-01-29 14:36:54.565  INFO 33732 --- [http-nio-8080-exec-8] com.example.demo.model.persistence.Cart  : After adding item:Square Widget to cart for user:Abhishek, the total price is:3.98.
-2021-01-29 14:36:54.565  INFO 33732 --- [http-nio-8080-exec-8] com.example.demo.model.persistence.Cart  : Adding item:Square Widget to cart for user:Abhishek.
-2021-01-29 14:36:54.565  INFO 33732 --- [http-nio-8080-exec-8] com.example.demo.model.persistence.Cart  : After adding item:Square Widget to cart for user:Abhishek, the total price is:5.97.
-2021-01-29 14:36:54.565  INFO 33732 --- [http-nio-8080-exec-8] com.example.demo.model.persistence.Cart  : Adding item:Square Widget to cart for user:Abhishek.
-2021-01-29 14:36:54.565  INFO 33732 --- [http-nio-8080-exec-8] com.example.demo.model.persistence.Cart  : After adding item:Square Widget to cart for user:Abhishek, the total price is:7.96.
-2021-01-29 14:36:54.565  INFO 33732 --- [http-nio-8080-exec-8] com.example.demo.model.persistence.Cart  : Adding item:Square Widget to cart for user:Abhishek.
-2021-01-29 14:36:54.565  INFO 33732 --- [http-nio-8080-exec-8] com.example.demo.model.persistence.Cart  : After adding item:Square Widget to cart for user:Abhishek, the total price is:9.95.
-2021-01-29 14:36:54.568  INFO 33732 --- [http-nio-8080-exec-8] c.e.demo.controllers.CartController      : item with name:Square Widget, quantity:5 was added to the user:Abhishek cart.
-2021-01-29 14:37:14.530  INFO 33732 --- [http-nio-8080-exec-9] c.e.demo.controllers.OrderController     : User with username:Abhishek submitted the order.
-2021-01-29 14:37:14.551  INFO 33732 --- [http-nio-8080-exec-9] c.e.demo.controllers.OrderController     : Order:2 of the user:Abhishek successfully submitted.
-2021-01-29 15:16:46.678  INFO 33732 --- [http-nio-8080-exec-1] c.e.demo.controllers.UserController      : Creating user with username:Manly
-2021-01-29 15:16:46.695  INFO 33732 --- [http-nio-8080-exec-1] c.e.demo.controllers.UserController      : User name set with Manly.
-2021-01-29 15:16:46.771  INFO 33732 --- [http-nio-8080-exec-1] c.e.demo.controllers.UserController      : User with user name Manly created successfully.
-2021-01-29 15:17:01.941  INFO 33732 --- [http-nio-8080-exec-4] c.e.demo.controllers.CartController      : Adding item:1, quantity:5 to user:Manly cart.
-2021-01-29 15:17:01.967  INFO 33732 --- [http-nio-8080-exec-4] com.example.demo.model.persistence.Cart  : Adding item:Round Widget to cart for user:Manly.
-2021-01-29 15:17:01.968  INFO 33732 --- [http-nio-8080-exec-4] com.example.demo.model.persistence.Cart  : After adding item:Round Widget to cart for user:Manly, the total price is:2.99.
-2021-01-29 15:17:01.968  INFO 33732 --- [http-nio-8080-exec-4] com.example.demo.model.persistence.Cart  : Adding item:Round Widget to cart for user:Manly.
-2021-01-29 15:17:01.968  INFO 33732 --- [http-nio-8080-exec-4] com.example.demo.model.persistence.Cart  : After adding item:Round Widget to cart for user:Manly, the total price is:5.98.
-2021-01-29 15:17:01.968  INFO 33732 --- [http-nio-8080-exec-4] com.example.demo.model.persistence.Cart  : Adding item:Round Widget to cart for user:Manly.
-2021-01-29 15:17:01.968  INFO 33732 --- [http-nio-8080-exec-4] com.example.demo.model.persistence.Cart  : After adding item:Round Widget to cart for user:Manly, the total price is:8.97.
-2021-01-29 15:17:01.968  INFO 33732 --- [http-nio-8080-exec-4] com.example.demo.model.persistence.Cart  : Adding item:Round Widget to cart for user:Manly.
-2021-01-29 15:17:01.968  INFO 33732 --- [http-nio-8080-exec-4] com.example.demo.model.persistence.Cart  : After adding item:Round Widget to cart for user:Manly, the total price is:11.96.
-2021-01-29 15:17:01.968  INFO 33732 --- [http-nio-8080-exec-4] com.example.demo.model.persistence.Cart  : Adding item:Round Widget to cart for user:Manly.
-2021-01-29 15:17:01.968  INFO 33732 --- [http-nio-8080-exec-4] com.example.demo.model.persistence.Cart  : After adding item:Round Widget to cart for user:Manly, the total price is:14.95.
-2021-01-29 15:17:01.972  INFO 33732 --- [http-nio-8080-exec-4] c.e.demo.controllers.CartController      : item with name:Round Widget, quantity:5 was added to the user:Manly cart.
-2021-01-29 15:17:08.833  INFO 33732 --- [http-nio-8080-exec-5] c.e.demo.controllers.OrderController     : User with username:Manly submitted the order.
-2021-01-29 15:17:08.853  INFO 33732 --- [http-nio-8080-exec-5] c.e.demo.controllers.OrderController     : Order:3 of the user:Manly successfully submitted.
-2021-01-29 18:56:50.385  WARN 33732 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h58m39s570ms820µs900ns).
+2021-02-01 01:36:15.660  INFO 49012 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2021-02-01 01:36:15.663  INFO 49012 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2021-02-01 01:36:15.809  INFO 49012 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-02-01 01:36:16.142  INFO 49012 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-02-01 01:36:16.892  INFO 49012 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-01 01:36:18.242  WARN 49012 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-01 01:36:18.335  INFO 49012 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@137d04d8, org.springframework.security.web.context.SecurityContextPersistenceFilter@7d563c13, org.springframework.security.web.header.HeaderWriterFilter@744db9fb, org.springframework.web.filter.CorsFilter@25b8f9d2, org.springframework.security.web.authentication.logout.LogoutFilter@57617a75, com.example.demo.security.JWTAuthenticationFilter@2979c6ef, com.example.demo.security.JWTAuthenticationVerficationFilter@1af6974c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@14fe085b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@da11873, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@61d61b0e, org.springframework.security.web.session.SessionManagementFilter@31940d6b, org.springframework.security.web.access.ExceptionTranslationFilter@5af641d3, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6655f3cd]
+2021-02-01 01:36:18.463  INFO 49012 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-01 01:36:18.668  INFO 49012 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-01 01:36:18.671  INFO 49012 --- [main] com.example.demo.SareetaApplication      : Started SareetaApplication in 5.906 seconds (JVM running for 6.278)
+2021-02-01 01:38:06.838  INFO 49012 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-01 01:38:06.839  INFO 49012 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-02-01 01:38:06.846  INFO 49012 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2021-02-01 01:38:06.965  INFO 49012 --- [http-nio-8080-exec-2] c.e.demo.controllers.UserController      : Creating user with username:Marian
+2021-02-01 01:38:07.004  INFO 49012 --- [http-nio-8080-exec-2] c.e.demo.controllers.UserController      : User name set with Marian.
+2021-02-01 01:38:07.171  INFO 49012 --- [http-nio-8080-exec-2] c.e.demo.controllers.UserController      : User with user name Marian created successfully.
+2021-02-01 01:38:20.714  INFO 49012 --- [http-nio-8080-exec-3] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2021-02-01 01:38:48.658  INFO 49012 --- [http-nio-8080-exec-4] c.e.demo.controllers.CartController      : Adding item:2, quantity:5 to user:Marian cart.
+2021-02-01 01:38:48.696  INFO 49012 --- [http-nio-8080-exec-4] com.example.demo.model.persistence.Cart  : Adding item:Square Widget to cart for user:Marian.
+2021-02-01 01:38:48.703  INFO 49012 --- [http-nio-8080-exec-4] com.example.demo.model.persistence.Cart  : After adding item:Square Widget to cart for user:Marian, the total price is:1.99.
+2021-02-01 01:38:48.703  INFO 49012 --- [http-nio-8080-exec-4] com.example.demo.model.persistence.Cart  : Adding item:Square Widget to cart for user:Marian.
+2021-02-01 01:38:48.703  INFO 49012 --- [http-nio-8080-exec-4] com.example.demo.model.persistence.Cart  : After adding item:Square Widget to cart for user:Marian, the total price is:3.98.
+2021-02-01 01:38:48.704  INFO 49012 --- [http-nio-8080-exec-4] com.example.demo.model.persistence.Cart  : Adding item:Square Widget to cart for user:Marian.
+2021-02-01 01:38:48.704  INFO 49012 --- [http-nio-8080-exec-4] com.example.demo.model.persistence.Cart  : After adding item:Square Widget to cart for user:Marian, the total price is:5.97.
+2021-02-01 01:38:48.704  INFO 49012 --- [http-nio-8080-exec-4] com.example.demo.model.persistence.Cart  : Adding item:Square Widget to cart for user:Marian.
+2021-02-01 01:38:48.704  INFO 49012 --- [http-nio-8080-exec-4] com.example.demo.model.persistence.Cart  : After adding item:Square Widget to cart for user:Marian, the total price is:7.96.
+2021-02-01 01:38:48.704  INFO 49012 --- [http-nio-8080-exec-4] com.example.demo.model.persistence.Cart  : Adding item:Square Widget to cart for user:Marian.
+2021-02-01 01:38:48.704  INFO 49012 --- [http-nio-8080-exec-4] com.example.demo.model.persistence.Cart  : After adding item:Square Widget to cart for user:Marian, the total price is:9.95.
+2021-02-01 01:38:48.723  INFO 49012 --- [http-nio-8080-exec-4] c.e.demo.controllers.CartController      : item with name:Square Widget, quantity:5 was added to the user:Marian cart.
+2021-02-01 01:38:57.355  INFO 49012 --- [http-nio-8080-exec-5] c.e.demo.controllers.CartController      : Adding item:1, quantity:3 to user:Marian cart.
+2021-02-01 01:38:57.388  INFO 49012 --- [http-nio-8080-exec-5] com.example.demo.model.persistence.Cart  : Adding item:Round Widget to cart for user:Marian.
+2021-02-01 01:38:57.389  INFO 49012 --- [http-nio-8080-exec-5] com.example.demo.model.persistence.Cart  : After adding item:Round Widget to cart for user:Marian, the total price is:12.94.
+2021-02-01 01:38:57.389  INFO 49012 --- [http-nio-8080-exec-5] com.example.demo.model.persistence.Cart  : Adding item:Round Widget to cart for user:Marian.
+2021-02-01 01:38:57.389  INFO 49012 --- [http-nio-8080-exec-5] com.example.demo.model.persistence.Cart  : After adding item:Round Widget to cart for user:Marian, the total price is:15.93.
+2021-02-01 01:38:57.389  INFO 49012 --- [http-nio-8080-exec-5] com.example.demo.model.persistence.Cart  : Adding item:Round Widget to cart for user:Marian.
+2021-02-01 01:38:57.389  INFO 49012 --- [http-nio-8080-exec-5] com.example.demo.model.persistence.Cart  : After adding item:Round Widget to cart for user:Marian, the total price is:18.92.
+2021-02-01 01:38:57.395  INFO 49012 --- [http-nio-8080-exec-5] c.e.demo.controllers.CartController      : item with name:Round Widget, quantity:3 was added to the user:Marian cart.
+2021-02-01 01:40:25.509  INFO 49012 --- [http-nio-8080-exec-8] c.e.demo.controllers.OrderController     : Retrieving orders for user:Marian.
+2021-02-01 01:40:25.528  INFO 49012 --- [http-nio-8080-exec-8] c.e.demo.controllers.OrderController     : Orders retrieved for user:Marian
+2021-02-01 01:41:22.008  INFO 49012 --- [http-nio-8080-exec-9] c.e.demo.controllers.ItemController      : Retrieving all the items in the system.
+2021-02-01 01:41:31.819  INFO 49012 --- [http-nio-8080-exec-10] c.e.demo.controllers.ItemController      : Retrieving items with name:Round Widget from the system
+2021-02-01 01:41:31.848  INFO 49012 --- [http-nio-8080-exec-10] c.e.demo.controllers.ItemController      : Retrieved items with name:Round Widget from the system
+2021-02-01 01:41:41.349  INFO 49012 --- [http-nio-8080-exec-1] c.e.demo.controllers.UserController      : Finding user with id:1
+2021-02-01 01:41:41.372  INFO 49012 --- [http-nio-8080-exec-1] c.e.demo.controllers.UserController      : User with id:1 found in the system.
+2021-02-01 01:41:47.704  INFO 49012 --- [http-nio-8080-exec-2] c.e.demo.controllers.ItemController      : Retrieving all the items in the system.
+2021-02-01 01:41:57.467  INFO 49012 --- [http-nio-8080-exec-3] c.e.demo.controllers.OrderController     : User with username:Marian submitted the order.
+2021-02-01 01:41:57.496  INFO 49012 --- [http-nio-8080-exec-3] c.e.demo.controllers.OrderController     : Order:1 of the user:Marian successfully submitted.
+2021-02-01 01:42:11.138  INFO 49012 --- [http-nio-8080-exec-4] c.e.demo.controllers.OrderController     : Retrieving orders for user:Marian.
+2021-02-01 01:42:11.159  INFO 49012 --- [http-nio-8080-exec-4] c.e.demo.controllers.OrderController     : Orders retrieved for user:Marian
+2021-02-01 01:44:39.868  INFO 49012 --- [http-nio-8080-exec-7] c.e.demo.controllers.OrderController     : Retrieving orders for user:Maria.
+2021-02-01 01:44:39.889 ERROR 49012 --- [http-nio-8080-exec-7] c.e.demo.controllers.OrderController     : User with username:Maria not found in the system.
+2021-02-01 01:51:22.131  INFO 48040 --- [main] com.example.demo.SareetaApplication      : Starting SareetaApplication on DESKTOP-QBCIC90 with PID 48040 (started by aiswa in D:\EECS Internship\SpringBoot Projects\JDND\projects\P04-eCommerce Application)
+2021-02-01 01:51:22.141  INFO 48040 --- [main] com.example.demo.SareetaApplication      : No active profile set, falling back to default profiles: default
+2021-02-01 01:51:22.896  INFO 48040 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-02-01 01:51:22.972  INFO 48040 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 67ms. Found 4 repository interfaces.
+2021-02-01 01:51:23.612  INFO 48040 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$479a82c8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-01 01:51:24.172  INFO 48040 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-02-01 01:51:24.214  INFO 48040 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-02-01 01:51:24.215  INFO 48040 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2021-02-01 01:51:24.386  INFO 48040 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-02-01 01:51:24.386  INFO 48040 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2189 ms
+2021-02-01 01:51:24.569  INFO 48040 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-02-01 01:51:24.758  INFO 48040 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-02-01 01:51:24.847  INFO 48040 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-02-01 01:51:24.944  INFO 48040 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2021-02-01 01:51:24.947  INFO 48040 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2021-02-01 01:51:25.148  INFO 48040 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-02-01 01:51:25.527  INFO 48040 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-02-01 01:51:26.278  INFO 48040 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-01 01:51:27.706  WARN 48040 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-01 01:51:27.793  INFO 48040 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7b92ea9d, org.springframework.security.web.context.SecurityContextPersistenceFilter@5af641d3, org.springframework.security.web.header.HeaderWriterFilter@3e8fe7db, org.springframework.web.filter.CorsFilter@6b3bc1f6, org.springframework.security.web.authentication.logout.LogoutFilter@58d79479, com.example.demo.security.JWTAuthenticationFilter@7491cdae, com.example.demo.security.JWTAuthenticationVerficationFilter@3050d479, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@744db9fb, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@525b9df4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5c7a06ec, org.springframework.security.web.session.SessionManagementFilter@64908ab9, org.springframework.security.web.access.ExceptionTranslationFilter@556a6320, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5e66733b]
+2021-02-01 01:51:27.915  INFO 48040 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-01 01:51:28.115  INFO 48040 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-01 01:51:28.117  INFO 48040 --- [main] com.example.demo.SareetaApplication      : Started SareetaApplication in 6.41 seconds (JVM running for 6.782)
+2021-02-01 02:10:26.951  INFO 48700 --- [main] com.example.demo.SareetaApplication      : Starting SareetaApplication on DESKTOP-QBCIC90 with PID 48700 (started by aiswa in D:\EECS Internship\SpringBoot Projects\JDND\projects\P04-eCommerce Application)
+2021-02-01 02:10:26.954  INFO 48700 --- [main] com.example.demo.SareetaApplication      : No active profile set, falling back to default profiles: default
+2021-02-01 02:10:27.818  INFO 48700 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-02-01 02:10:27.913  INFO 48700 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 85ms. Found 4 repository interfaces.
+2021-02-01 02:10:28.590  INFO 48700 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7f0d57ae] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-01 02:10:29.058  INFO 48700 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-02-01 02:10:29.093  INFO 48700 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-02-01 02:10:29.093  INFO 48700 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2021-02-01 02:10:29.267  INFO 48700 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-02-01 02:10:29.268  INFO 48700 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2223 ms
+2021-02-01 02:10:29.508  INFO 48700 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-02-01 02:10:29.737  INFO 48700 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-02-01 02:10:29.841  INFO 48700 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-02-01 02:10:29.964  INFO 48700 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2021-02-01 02:10:29.967  INFO 48700 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2021-02-01 02:10:30.212  INFO 48700 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-02-01 02:10:30.631  INFO 48700 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-02-01 02:10:31.509  INFO 48700 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-01 02:10:33.097  WARN 48700 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-01 02:10:33.177  INFO 48700 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@646bf8a6, org.springframework.security.web.context.SecurityContextPersistenceFilter@36857d32, org.springframework.security.web.header.HeaderWriterFilter@14fe085b, org.springframework.web.filter.CorsFilter@4a094f90, org.springframework.security.web.authentication.logout.LogoutFilter@4942e6af, com.example.demo.security.JWTAuthenticationFilter@1b5623b4, com.example.demo.security.JWTAuthenticationVerficationFilter@8c34631, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2ae88712, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5e72c82a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@33563147, org.springframework.security.web.session.SessionManagementFilter@525b9df4, org.springframework.security.web.access.ExceptionTranslationFilter@7d563c13, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6b3bc1f6]
+2021-02-01 02:10:33.336  INFO 48700 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-01 02:10:33.546  INFO 48700 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-01 02:10:33.549  INFO 48700 --- [main] com.example.demo.SareetaApplication      : Started SareetaApplication in 7.084 seconds (JVM running for 7.59)
+2021-02-01 02:11:40.479  INFO 32748 --- [main] com.example.demo.SareetaApplication      : Starting SareetaApplication on DESKTOP-QBCIC90 with PID 32748 (started by aiswa in D:\EECS Internship\SpringBoot Projects\JDND\projects\P04-eCommerce Application)
+2021-02-01 02:11:40.482  INFO 32748 --- [main] com.example.demo.SareetaApplication      : No active profile set, falling back to default profiles: default
+2021-02-01 02:11:41.212  INFO 32748 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-02-01 02:11:41.303  INFO 32748 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 81ms. Found 4 repository interfaces.
+2021-02-01 02:11:41.920  INFO 32748 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b428f899] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-01 02:11:42.339  INFO 32748 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-02-01 02:11:42.370  INFO 32748 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-02-01 02:11:42.370  INFO 32748 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2021-02-01 02:11:42.528  INFO 32748 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-02-01 02:11:42.528  INFO 32748 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1988 ms
+2021-02-01 02:11:42.755  INFO 32748 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-02-01 02:11:42.953  INFO 32748 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-02-01 02:11:43.051  INFO 32748 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-02-01 02:11:43.134  INFO 32748 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2021-02-01 02:11:43.136  INFO 32748 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2021-02-01 02:11:43.322  INFO 32748 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-02-01 02:11:43.665  INFO 32748 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-02-01 02:11:44.474  INFO 32748 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-01 02:11:45.973  WARN 32748 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-01 02:11:46.107  INFO 32748 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@19c24321, org.springframework.security.web.context.SecurityContextPersistenceFilter@57ab4b33, org.springframework.security.web.header.HeaderWriterFilter@2ae88712, org.springframework.web.filter.CorsFilter@ba27ce6, org.springframework.security.web.authentication.logout.LogoutFilter@129aaac1, com.example.demo.security.JWTAuthenticationFilter@97cb8dc, com.example.demo.security.JWTAuthenticationVerficationFilter@261b6c8c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@46d51d5e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@700202fa, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2dcbf825, org.springframework.security.web.session.SessionManagementFilter@da11873, org.springframework.security.web.access.ExceptionTranslationFilter@36857d32, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@25b8f9d2]
+2021-02-01 02:11:46.316  INFO 32748 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-01 02:11:46.664  INFO 32748 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-01 02:11:46.668  INFO 32748 --- [main] com.example.demo.SareetaApplication      : Started SareetaApplication in 6.642 seconds (JVM running for 7.014)
