@@ -23,6 +23,7 @@ public class SareetaApplication {
 		return new BCryptPasswordEncoder();
 	}
 
+	/*
 	@Value("${splunk.username}")
 	private String username;
 
@@ -106,6 +107,7 @@ public class SareetaApplication {
 		logArgs.put("sourcetype","_json");
 		return logArgs;
 	}
+	*/
 
 	public static void main(String[] args) {
 		SpringApplication.run(SareetaApplication.class, args);
