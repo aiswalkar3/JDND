@@ -31,6 +31,7 @@ public class SplunkConfig {
         loginArgs.setPassword(password);
         loginArgs.setHost(host);
         loginArgs.setPort(port);
+        //loginArgs.setScheme("https");
 
         Service service = Service.connect(loginArgs);
 
