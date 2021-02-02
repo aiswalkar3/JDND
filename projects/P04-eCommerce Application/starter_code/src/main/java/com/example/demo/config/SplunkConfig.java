@@ -88,10 +88,10 @@ public class SplunkConfig {
     @Bean
     public Args args()
     {
-        Args logArgs = new Args();
-        logArgs.put("source", "e-commerce application");
-        logArgs.put("sourcetype","_json");
-        return logArgs;
+        Args args = new Args();
+        args.put("source", "e-commerce application");
+        args.put("sourcetype","_json");
+        return args;
     }
 
 }
