@@ -42,8 +42,8 @@ public class CartController {
 	//@Autowired
 	//Receiver receiver;
 
-	@Autowired
-	Args args;
+	//@Autowired
+	//Args args;
 
 	@PostMapping("/addToCart")
 	public ResponseEntity<Cart> addTocart(@RequestBody ModifyCartRequest request) {
@@ -179,8 +179,7 @@ public class CartController {
 		}
 	}
 
-	public void logToSplunk(String index, String logLevel, String responseCode, String message)
-	{
+	public void logToSplunk(String index, String logLevel, String responseCode, String message) {
 		try {
 			JSONObject jsonObject = new JSONObject();
 			if (logLevel != null && !logLevel.isEmpty())
@@ -191,17 +190,12 @@ public class CartController {
 				jsonObject.put("message", message);
 
 			//receiver.log(index, args, jsonObject.toString());
-		}
-		catch(JSONException exception)
-		{
+		} catch (JSONException exception) {
 			System.out.println("Exception occurred while creating json object.");
 			exception.printStackTrace();
-		}
-		catch (Exception e)
-		{
+		} catch (Exception e) {
 			System.out.println("Exception occurred while creating json object.");
 			e.printStackTrace();
 		}
 	}
-		
 }
