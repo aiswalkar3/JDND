@@ -39,8 +39,8 @@ public class CartController {
 	@Autowired
 	private ItemRepository itemRepository;
 
-	@Autowired
-	Receiver receiver;
+	//@Autowired
+	//Receiver receiver;
 
 	@Autowired
 	Args args;
