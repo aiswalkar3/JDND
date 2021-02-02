@@ -190,7 +190,7 @@ public class CartController {
 			if (message != null && !message.isEmpty())
 				jsonObject.put("message", message);
 
-			receiver.log(index, args, jsonObject.toString());
+			//receiver.log(index, args, jsonObject.toString());
 		}
 		catch(JSONException exception)
 		{
