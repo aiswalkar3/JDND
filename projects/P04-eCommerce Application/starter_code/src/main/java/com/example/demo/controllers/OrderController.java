@@ -29,17 +29,31 @@ import com.example.demo.model.persistence.repositories.UserRepository;
 public class OrderController {
 	Logger log = LoggerFactory.getLogger(OrderController.class);
 	
-	@Autowired
+	//@Autowired
 	private UserRepository userRepository;
 	
-	@Autowired
+	//@Autowired
 	private OrderRepository orderRepository;
 
-	@Autowired
-	Receiver receiver;
+	//@Autowired
+	private Receiver receiver;
 
-	@Autowired
-	Args args;
+	//@Autowired
+	private Args args;
+
+	public OrderController()
+	{
+
+	}
+
+	public OrderController(UserRepository userRepository, OrderRepository orderRepository, Receiver receiver,
+						   Args args)
+	{
+		this.userRepository = userRepository;
+		this.orderRepository = orderRepository;
+		this.receiver = receiver;
+		this.args = args;
+	}
 	
 	@PostMapping("/submit/{username}")
 	public ResponseEntity<UserOrder> submit(@PathVariable String username) {

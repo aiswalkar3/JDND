@@ -30,20 +30,36 @@ import com.example.demo.model.requests.ModifyCartRequest;
 public class CartController {
 	Logger log = LoggerFactory.getLogger(CartController.class);
 
-	@Autowired
+	//@Autowired
 	private UserRepository userRepository;
 	
-	@Autowired
+	//@Autowired
 	private CartRepository cartRepository;
 	
-	@Autowired
+	//@Autowired
 	private ItemRepository itemRepository;
 
 	//@Autowired
-	//Receiver receiver;
+	private Receiver receiver;
 
 	//@Autowired
-	//Args args;
+	private Args args;
+
+	public CartController()
+	{
+
+	}
+
+	public CartController(UserRepository userRepository, CartRepository cartRepository,
+						  ItemRepository itemRepository, Receiver receiver, Args args)
+	{
+		this.userRepository = userRepository;
+		this.cartRepository = cartRepository;
+		this.itemRepository = itemRepository;
+		this.receiver = receiver;
+		this.args = args;
+	}
+
 
 	@PostMapping("/addToCart")
 	public ResponseEntity<Cart> addTocart(@RequestBody ModifyCartRequest request) {

@@ -30,20 +30,36 @@ import java.util.Optional;
 public class UserController {
 	Logger log = LoggerFactory.getLogger(UserController.class);
 
-	@Autowired
+	//@Autowired
 	private UserRepository userRepository;
 	
-	@Autowired
+	//@Autowired
 	private CartRepository cartRepository;
 
-	@Autowired
-	BCryptPasswordEncoder bCryptPasswordEncoder;
+	//@Autowired
+	private BCryptPasswordEncoder bCryptPasswordEncoder;
 
-	@Autowired
-	Receiver receiver;
+	//@Autowired
+	private Receiver receiver;
 
-	@Autowired
-	Args args;
+	//@Autowired
+	private Args args;
+
+	public UserController()
+	{
+
+	}
+
+	public UserController(UserRepository userRepository, CartRepository cartRepository,
+						  BCryptPasswordEncoder bCryptPasswordEncoder, Receiver receiver,
+						  Args args)
+	{
+		this.userRepository = userRepository;
+		this.cartRepository = cartRepository;
+		this.bCryptPasswordEncoder = bCryptPasswordEncoder;
+		this.receiver = receiver;
+		this.args = args;
+	}
 
 	@GetMapping("/id/{id}")
 	public ResponseEntity<User> findById(@PathVariable Long id) {

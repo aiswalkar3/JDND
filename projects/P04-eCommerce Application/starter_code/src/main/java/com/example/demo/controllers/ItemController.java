@@ -25,14 +25,26 @@ import com.example.demo.model.persistence.repositories.ItemRepository;
 public class ItemController {
 	Logger log = LoggerFactory.getLogger(ItemController.class);
 
-	@Autowired
+	//@Autowired
 	private ItemRepository itemRepository;
 
-	@Autowired
-	Receiver receiver;
+	//@Autowired
+	private Receiver receiver;
 
-	@Autowired
-	Args args;
+	//@Autowired
+	private Args args;
+
+	public ItemController()
+	{
+
+	}
+
+	public ItemController(ItemRepository itemRepository, Receiver receiver, Args args)
+	{
+		this.itemRepository = itemRepository;
+		this.receiver = receiver;
+		this.args = args;
+	}
 
 	@GetMapping
 	public ResponseEntity<List<Item>> getItems() {
